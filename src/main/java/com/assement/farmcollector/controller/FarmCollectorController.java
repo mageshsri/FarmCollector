@@ -18,6 +18,7 @@ public class FarmCollectorController {
      * @Param farm name of the farm for which the plantation details to be inserted
      * @Param season name of the season
      * @Param crop name of the crop
+     * @Param cropPlantationDetailDto request payload
      * @return message containing the result of insert operation
      */
     @PostMapping(path = "/farms/{farm}/seasons/{season}/crops/{crop}/farmCrops",
@@ -33,6 +34,7 @@ public class FarmCollectorController {
      * @Param farm name of the form for which the plantation details to be updated
      * @Param season name of the season
      * @Param crop name of the crop
+     * @Param cropPlantationDetailDto request payload
      * @return message containing the result of update operation
      */
     @PutMapping(path = "/farms/{farm}/seasons/{season}/crops/{crop}/farmCrops",
@@ -48,6 +50,7 @@ public class FarmCollectorController {
      * @Param farm name of the form for which the harvest details to be updated
      * @Param season name of the season
      * @Param crop name of the crop
+     * @Param cropHarvestedDetailDto request payload
      * @return message containing the result of update operation
      */
     @PatchMapping(path = "/farms/{farm}/seasons/{season}/crops/{crop}/farmCrops",
