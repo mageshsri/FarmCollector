@@ -12,4 +12,7 @@ This APP provides the below REST End points
    
 4) GET /farmCrops?season={season}&farm={farm}
     - API for fetching the Farm crop details either by Season or by farm & Season
+
+
+REST API Base path is http://localhost:8080/farm-collector
    
